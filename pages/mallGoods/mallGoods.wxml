@@ -1,0 +1,41 @@
+<view class="container">
+  <swiper class="goodsimgs" indicator-dots="true" autoplay="true" interval="3000" duration="1000">
+    <swiper-item>
+      <image src="/static/indexImage/商品banner.png" background-size="cover"></image>
+    </swiper-item>
+  </swiper>
+  <view class="goods-info">
+    <view class="textarea1">招牌牛腩</view>
+    <view class="textarea2">
+      新鲜暗爽嫩的热气牛肉，米香浓郁的地道粿米，当日现熬的牛大骨汤，配上潮汕沙茶酱和秘制蒜蓉辣椒酱，层次丰满，口齿留香。
+    </view>
+    <view class="guige">
+      <view class="textarea">规格</view>
+      <view class="option">
+        <view class="option1 selected">一人份</view>
+        <view class="option2">两人份</view>
+      </view>
+    </view>
+    <view class="shuxing">
+      <view class="textarea">属性</view>
+      <view class="option">
+        <view class="option1 selected">选项1</view>
+        <view class="option2">选项2</view>
+        <view class="option3">选项3</view>
+      </view>
+    </view>
+  </view>
+  <!-- 底部按钮 -->
+  <view class="bottom">
+    <view class="price">¥ 30.00</view>
+    <view class="textarea">1人份，微辣</view>
+    <view class="bottom-operate">
+      <view class="minus" bindtap="cutNumber">-</view>
+      <view class="num">{{number}}</view>
+      <view class="add" bindtap="addNumber">+</view>
+    </view>
+    <view class="bottom-btn" bindtap="addToCart">
+      加入购物车
+    </view>
+  </view>
+</view>

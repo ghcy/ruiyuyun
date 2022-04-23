@@ -1,0 +1,186 @@
+.container {
+  background-color: #f5f6f0;
+  height: 1334rpx;
+  overflow: auto;
+}
+
+.return {
+  width: 60rpx;
+  height: 60rpx;
+  position: fixed;
+  top: 50rpx;
+  left: 20rpx;
+  z-index: 20;
+}
+
+.goodsimgs {
+  width: 750rpx;
+  height: 640rpx;
+}
+
+.goodsimgs image {
+  width: 100%;
+  height: 100%;
+}
+
+.goods-info {
+  width: 700rpx;
+  height: 550rpx;
+  margin: 20rpx auto;
+  border-radius: 20rpx;
+  background-color: #ffffff;
+  position: relative;
+}
+
+.goods-info .textarea1 {
+  height: 50rpx;
+  line-height: 50rpx;
+  text-align: start;
+  font-weight: bold;
+  position: absolute;
+  top: 20rpx;
+  left: 20rpx;
+}
+
+.goods-info .textarea2 {
+  width: 640rpx;
+  font-size: smaller;
+  font-weight: bold;
+  color: #b2b2b2;
+  position: absolute;
+  top: 80rpx;
+  left: 20rpx;
+}
+
+.guige {
+  position: absolute;
+  top: 220rpx;
+  left: 20rpx;
+}
+
+.guige .textarea {
+  font-size: small;
+  font-weight: bold;
+  margin-bottom: 30rpx;
+}
+
+.shuxing {
+  position: absolute;
+  top: 350rpx;
+  left: 20rpx;
+}
+
+.shuxing .textarea {
+  font-size: small;
+  font-weight: bold;
+  margin-bottom: 30rpx;
+}
+
+.option {
+  display: flex;
+}
+
+.option1,
+.option2,
+.option3 {
+  width: 140rpx;
+  height: 50rpx;
+  text-align: center;
+  line-height: 50rpx;
+  border: 1px solid #cccccc;
+  border-radius: 25rpx;
+  margin-right: 20rpx;
+}
+
+.selected {
+  background-color: #ede1d3;
+  color: #c49b6d;
+}
+
+.bottom {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 750rpx;
+  height: 300rpx;
+  background-color: #ffffff;
+  margin-top: 1rpx;
+}
+
+.bottom-btn {
+  width: 680rpx;
+  height: 88rpx;
+  border-radius: 44rpx;
+  background-color: #111111;
+  line-height: 88rpx;
+  text-align: center;
+  color: #ebba82;
+  position: absolute;
+  bottom: 50rpx;
+  left: 45rpx;
+}
+
+.bottom .price {
+  height: 50rpx;
+  line-height: 50rpx;
+  font-size: large;
+  font-weight: bold;
+  color: #d75425;
+  position: absolute;
+  top: 50rpx;
+  left: 45rpx;
+}
+
+.bottom .textarea {
+  height: 35rpx;
+  line-height: 35rpx;
+  font-size: smaller;
+  color: #b2b2b2;
+  position: absolute;
+  top: 100rpx;
+  left: 45rpx;
+}
+
+.bottom-operate {
+  width: 150rpx;
+  height: 40rpx;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 50rpx;
+  right: 45rpx;
+}
+
+.minus,
+.num,
+.add {
+  width: 50rpx;
+  height: 40rpx;
+}
+
+.add,
+.minus {
+  width: 40rpx;
+  height: 40rpx;
+  font-size: 40rpx;
+  font-weight: bold;
+  text-align: center;
+  line-height: 31.75rpx;
+  border: 1px solid #999999;
+  color: #999999;
+  border-radius: 50%;
+  z-index: 11;
+}
+
+.add {
+  background-color: #d75425;
+  color: #ffffff;
+}
+
+.num {
+  text-align: center;
+  line-height: 40rpx;
+  color: #d75425;
+  font-weight: bold;
+  font-size: large;
+}

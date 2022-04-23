@@ -1,0 +1,72 @@
+<view class="container">
+  <view class="top">
+    <view class="textarea">潮米道大悦城店</view>
+    <view class="optionbox" bindtap="switchTab">
+      <view class="tangshi {{index == 1 ? 'selected' : ''}}" id="tangshi">堂食</view>
+      <view class="ziqu {{index == 2 ? 'selected' : ''}}" id="ziqu">自取</view>
+    </view>
+  </view>
+  <view class="catalog" >
+    <scroll-view class="nav" scroll-y="true">
+      <view class="select" bindtap="switchCate">人气之选</view>
+      <view class="item" bindtap="getCatalog">牛肉牛杂</view>
+      <view class="item" bindtap="getCatalog">猪肉猪杂</view>
+      <view class="item" bindtap="getCatalog">海鲜系列</view>
+      <view class="item" bindtap="getCatalog">海鲜系列</view>
+      <view class="item" bindtap="getCatalog">海鲜系列</view>
+    </scroll-view>
+    <scroll-view class="cate" scroll-y="true">
+      <navigator url="../../pages/goods/goods" open-type="navigate" class="bd">
+        <image class="icon" src="/static/indexImage/shangpin1.png"></image>
+        <view class="txt" space="nbsp">招牌牛腩</view>
+        <view class="content">内容</view>
+        <view class="price">价格</view>
+        <view class="num1">1</view>
+        <button class="btn">选规格</button>
+      </navigator>
+      <navigator url="../../pages/goods/goods" class="bd">
+        <image class="icon" src="/static/indexImage/shangpin2.png"></image>
+        <view class="txt" space="nbsp">招牌牛腩</view>
+        <view class="content">内容</view>
+        <view class="price">价格</view>
+        <view class="num1">1</view>
+        <button class="btn">选规格</button>
+      </navigator>
+      <navigator url="../../pages/goods/goods" class="bd">
+        <image class="icon" src="/static/indexImage/shangpin3.png"></image>
+        <view class="txt" space="nbsp">招牌牛腩</view>
+        <view class="content">内容</view>
+        <view class="price">价格</view>
+        <view class="num1">1</view>
+        <button class="btn">选规格</button>
+      </navigator>
+      <navigator url="../../pages/goods/goods" class="bd">
+        <image class="icon" src="/static/indexImage/shangpin4.png"></image>
+        <view class="txt" space="nbsp">招牌牛腩</view>
+        <view class="content">内容</view>
+        <view class="price">价格</view>
+        <view class="num1">1</view>
+        <button class="btn">选规格</button>
+      </navigator>
+      <navigator url="../../pages/goods/goods" class="bd">
+        <image class="icon" src="/static/indexImage/shangpin5.png"></image>
+        <view class="txt" space="nbsp">招牌牛腩</view>
+        <view class="content">内容</view>
+        <view class="price">价格</view>
+        <view class="num1">1</view>
+        <button class="btn">选规格</button>
+      </navigator>
+    </scroll-view>
+  </view>
+
+  <view class="bottom">
+    <view class="content">
+      <view class="total">总金额:</view>
+      <view class="price">50.00</view>
+      <view class="num" wx:if="{{goodsNum}}">{{goodsNum}}</view>
+    </view>
+    <view class="navi" bindtap="gotoCart">
+      <image src="/static/indexImage/cart.png"></image>
+    </view>
+  </view>
+</view>

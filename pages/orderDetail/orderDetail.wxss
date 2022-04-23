@@ -1,0 +1,78 @@
+.container{
+  width: 750rpx;
+  height: 100%;
+}
+.top{
+  width: 750rpx;
+  height: 400rpx;
+  background-color: rgb(226, 215, 215);
+  padding-top: 100rpx;
+}
+.topText{
+  display: block;
+  width: 750rpx;
+  height: 50rpx;
+  text-align: center;
+  line-height: 50rpx;
+}
+.box{
+  width: 650rpx;
+  height: 100%rpx;
+  position: absolute;
+  top: 250rpx;
+  left: 50rpx;
+  border: 1px solid black;
+  background-color: white;
+}
+.text{
+  display: block;
+  width: 100%;
+  height: 50rpx;
+  line-height: 50rpx;
+  margin-left: 20rpx;
+}
+.goodsInfo {
+  width: 400rpx;
+  height: 100rpx;
+  position: absolute;
+  top: 15rpx;
+  left: 200rpx;
+}
+.goods {
+  width: 650rpx;
+  height: 250rpx;
+  margin-top: 100rpx;
+}
+
+.item {
+  width: 610rpx;
+  height: 200rpx;
+  border: 1px solid black;
+  margin: 0 auto;
+  position: relative;
+}
+
+.item .img1 {
+  width: 170rpx;
+  height: 170rpx;
+  border: 1px solid black;
+  margin-top: 15rpx;
+  margin-left: 15rpx;
+  float: left;
+}
+.goodsInfo .textarea {
+  height: 100rpx;
+  font-size: small;
+}
+.operate {
+  position: absolute;
+  top: 131rpx;
+  left: 200rpx;
+  width: 400rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+}
+.orderInfo{
+  margin-left: 20rpx;
+  margin-top: 100rpx;
+}

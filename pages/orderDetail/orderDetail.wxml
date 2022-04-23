@@ -1,0 +1,27 @@
+<view class="container">
+  <view class="top">
+    <text class="topText">潮品道xxxx</text>
+    <text class="topText">堂食/外带订单详情</text>
+  </view>
+  <view class="box">
+    <text class="text" space="nbsp">取餐号： XXX</text>
+    <text class="text" space="nbsp">订单状态： 准备中/已完成/已退单</text>
+    <text class="text" space="nbsp">就餐方式： 堂食/外卖</text>
+    <text class="text" space="nbsp">取餐时间： 立即/11:30</text>
+    <!-- 商品列表 -->
+    <scroll-view class="goods" scroll-y="true">
+      <view class="item">
+        <image class="img1" src="/static/images/category.png"></image>
+        <view class="goodsInfo">
+          <text class="textarea">商品名称\n商品文字描述</text>
+        </view>
+        <view class="operate">
+          <text space="nbsp">份数：3                       ¥xxxx</text>
+        </view>
+      </view>
+    </scroll-view>
+    <view class="orderInfo">
+    <text space="nbsp">订单信息：\n   打包费：xxx\n   下单时间：xxx\n   订单编号：xxx\n   备注信息：xxx\n   </text>
+    </view>
+  </view>
+</view>

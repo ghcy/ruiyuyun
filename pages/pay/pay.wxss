@@ -1,0 +1,316 @@
+.container {
+  width: 750rpx;
+  height: 1194rpx;
+  background-color: #f5f6f0;
+  padding-top: 20rpx;
+  overflow: auto;
+}
+
+.top {
+  width: 700rpx;
+  height: 250rpx;
+  position: relative;
+  border-radius: 20rpx;
+  background-color: #ffffff;
+  margin: 0 auto;
+}
+
+.top .textarea {
+  width: 240rpx;
+  height: 50rpx;
+  text-align: center;
+  line-height: 50rpx;
+  font-weight: bold;
+  position: absolute;
+  top: 50rpx;
+}
+
+.top .optionbox {
+  width: 200rpx;
+  height: 64rpx;
+  position: absolute;
+  top: 43rpx;
+  right: 20rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eee8dc;
+  border-radius: 50rpx;
+}
+
+.tangshi {
+  width: 100rpx;
+  height: 64rpx;
+  text-align: center;
+  line-height: 64rpx;
+  border-radius: 50rpx;
+  color: #b2b0ad;
+}
+
+.ziqu {
+  width: 100rpx;
+  height: 64rpx;
+  text-align: center;
+  line-height: 64rpx;
+  border-radius: 50rpx;
+  color: #b2b0ad;
+}
+
+.selected {
+  background-color: #c49b6d;
+  color: #ffffff;
+}
+
+.time {
+  width: 700rpx;
+  height: 50rpx;
+  position: absolute;
+  bottom: 0;
+}
+
+.top .time .textarea1 {
+  height: 50rpx;
+  line-height: 50rpx;
+  text-align: start;
+  font-weight: bold;
+  position: absolute;
+  bottom: 20rpx;
+  left: 20rpx;
+}
+
+.time .select-time .time-picker {
+  height: 50rpx;
+  line-height: 50rpx;
+  color: #c49b6d;
+  font-weight: bold;
+  position: absolute;
+  bottom: 20rpx;
+  right: 20rpx;
+}
+
+.goods {
+  width: 700rpx;
+  margin: 40rpx auto;
+  background-color: #ffffff;
+  border-radius: 20rpx;
+}
+
+.item {
+  width: 650rpx;
+  height: 150rpx;
+  position: relative;
+}
+
+.item .img1 {
+  width: 120rpx;
+  height: 120rpx;
+  position: absolute;
+  top: 15rpx;
+  left: 20rpx;
+}
+
+.item .text1 {
+  height: 30rpx;
+  line-height: 30rpx;
+  font-weight: bold;
+  position: absolute;
+  top: 35rpx;
+  left: 160rpx;
+}
+
+.item .text2 {
+  height: 30rpx;
+  line-height: 30rpx;
+  font-size: smaller;
+  font-weight: lighter;
+  position: absolute;
+  top: 85rpx;
+  left: 160rpx;
+}
+
+.item .text3 {
+  height: 30rpx;
+  line-height: 30rpx;
+  font-size: smaller;
+  font-weight: lighter;
+  position: absolute;
+  right: 20rpx;
+  bottom: 40rpx;
+}
+
+.item .text4 {
+  height: 30rpx;
+  line-height: 30rpx;
+  font-weight: bold;
+  color: #c49b6d;
+  position: absolute;
+  top: 35rpx;
+  right: 20rpx;
+}
+
+.remark {
+  width: 700rpx;
+  height: 240rpx;
+  background-color: #ffffff;
+  margin: 40rpx auto;
+  border-radius: 20rpx;
+  position: relative;
+}
+
+.remark .textarea {
+  height: 30rpx;
+  line-height: 30rpx;
+  font-weight: bold;
+  position: absolute;
+  top: 30rpx;
+  left: 30rpx;
+}
+
+.remark .ta {
+  width: 640rpx;
+  height: 120rpx;
+  background-color: #f5f6f0;
+  padding-top: 10rpx;
+  padding-left: 10rpx;
+  position: absolute;
+  top: 80rpx;
+  left: 30rpx;
+  border-radius: 20rpx;
+}
+
+
+.discount {
+  width: 700rpx;
+  height: 300rpx;
+  border-radius: 20rpx;
+  margin: 40rpx auto;
+  background-color: #ffffff;
+  position: relative;
+}
+
+.discount .dabaofei{
+  width: 700rpx;
+  height: 50rpx;
+  padding-left: 20rpx;
+  position: absolute;
+  top: 40rpx;
+}
+.discount .dabaofei .text1{
+  width: 200rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  font-weight: bold;
+  position: absolute;
+}
+.discount .dabaofei .amount{
+  color: #c49b6d;
+  font-weight: bold;
+  position: absolute;
+  right: 20rpx;
+}
+.nav{
+  width: 700rpx;
+  height: 60rpx;
+  position: absolute;
+  top: 130rpx;
+}
+.nav .text1{
+  width: 100rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  font-weight: bold;
+  position: absolute;
+  left: 20rpx;
+}
+.nav .img2{
+  width: 40rpx;
+  height: 40rpx;
+  position: absolute;
+  left: 120rpx;
+  bottom: 12rpx;
+}
+.nav .text2{
+  
+  height: 60rpx;
+  line-height: 60rpx;
+  font-weight: bold;
+  color: #dd6d45;
+  position: absolute;
+  right: 40rpx;
+}
+.nav .img3{
+  width: 40rpx;
+  height: 60rpx;
+  position: absolute;
+  right: 0;
+}
+.sum{
+  width: 700rpx;
+  height: 60rpx;
+  position: absolute;
+  bottom: 0;
+}
+.sum .text1{
+  width: 100rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  font-weight: bold;
+  position: absolute;
+  left: 250rpx;
+}
+.sum .amount{
+  height: 60rpx;
+  line-height: 60rpx;
+  font-weight: bold;
+  color: #dd6d45;
+  position: absolute;
+  left: 350rpx;
+}
+.sum .total{
+  height: 60rpx;
+  line-height: 60rpx;
+  font-weight: bold;
+  position: absolute;
+  right: 20rpx;
+}
+.pay{
+  width: 750rpx;
+  height: 140rpx;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: flex;
+}
+.pay .left{
+  width: 510rpx;
+  height: 144rpx;
+  background-color: #ffffff;
+}
+.pay .left .text1{
+  height: 144rpx;
+  line-height: 144rpx;
+  font-weight: bold;
+  position: absolute;
+  top: 0;
+  left: 50rpx;
+}
+.pay .left .text2{
+  height: 144rpx;
+  line-height: 144rpx;
+  font-weight: bold;
+  color: #d75425;
+  position: absolute;
+  top: 0;
+  left: 150rpx;
+}
+.pay .right{
+  width: 240rpx;
+  height: 144rpx;
+  text-align: center;
+  line-height: 144rpx;
+  font-weight: bold ;
+  background-color: #111111;
+  color: #ebba82;
+}
+
+

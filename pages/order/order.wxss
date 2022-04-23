@@ -1,0 +1,93 @@
+.container {
+  width: 750rpx;
+  height: 100%;
+}
+
+.topBox {
+  width: 550rpx;
+  height: 100rpx;
+  margin: 50rpx auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tangshi,
+.lingshou {
+  width: 200rpx;
+  height: 50rpx;
+  border: 1px solid black;
+  text-align: center;
+  line-height: 50rpx;
+}
+
+.tangshi {
+  border-top-left-radius: 25rpx;
+  border-bottom-left-radius: 25rpx;
+  margin-right: -1rpx;
+}
+
+.lingshou {
+  border-top-right-radius: 25rpx;
+  border-bottom-right-radius: 25rpx;
+}
+
+.selected {
+  background-color: rgb(99, 93, 93);
+  color: aliceblue;
+}
+
+.goods {
+  width: 650rpx;
+  height: 300rpx;
+  margin: 50rpx auto;
+  border: 1px solid black;
+  position: relative;
+}
+
+.goods image {
+  width: 100rpx;
+  height: 100rpx;
+  position: absolute;
+  top: 20rpx;
+  border: 1px solid black;
+}
+
+.img1 {
+  left: 20rpx;
+
+}
+
+.img2 {
+  left: 140rpx;
+}
+.text1{
+  display: block;
+  width: 200rpx;
+  height: 50rpx;
+  font-weight: bold;
+  line-height: 50rpx;
+  position: absolute;
+  left: 260rpx;
+  top: 20rpx;
+}
+.text2{
+  display: block;
+  width: 150rpx;
+  height: 60rpxrpx;
+  line-height: 20rpx;
+  text-align: end;
+  position: absolute;
+  left: 480rpx;
+  top: 20rpx;
+}
+.btn{
+  width:160rpx;
+  height: 50rpx;
+  text-align: center;
+  line-height: 50rpx;
+  font-size: small;
+  position: absolute;
+  left: 485rpx;
+  top: 230rpx;
+}

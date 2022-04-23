@@ -1,0 +1,17 @@
+<view class="container">
+  <view class="topBox">
+    <view class="tangshi selected">堂食外带</view>
+    <view class="lingshou">零售百货</view>
+  </view>
+  <view class="goods" bindtap="goToOrderDetail">
+    <image class="img1" src="/static/images/home.png"></image>
+    <image class="img2" src="/static/images/home.png"></image>
+    <text class="text1" space="nbsp">取餐号：XXX</text>
+    <text class="text2" space="nbsp">
+      准备中\n
+      堂食\n
+      共2件
+    </text>
+    <button class="btn">取消订单</button>
+  </view>
+</view>

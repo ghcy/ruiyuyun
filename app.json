@@ -1,0 +1,102 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/catalog/catalog",
+    "pages/ucenter/index/index",
+    "pages/ucenter/address/address",
+    "pages/ucenter/addressAdd/addressAdd",
+    "pages/ucenter/feedback/feedback",
+    "pages/ucenter/footprint/footprint",
+    "pages/ucenter/order/order",
+    "pages/ucenter/orderDetail/orderDetail",
+    "pages/ucenter/couponList/couponList",
+    "pages/ucenter/couponSelect/couponSelect",
+    "pages/ucenter/collect/collect",
+    "pages/auth/login/login",
+    "pages/auth/accountLogin/accountLogin",
+    "pages/auth/register/register",
+    "pages/auth/reset/reset",
+    "pages/goods/goods",
+    "pages/order/order",
+    "pages/coupon/coupon",
+    "pages/ucenter/aftersale/aftersale",
+    "pages/ucenter/aftersaleList/aftersaleList",
+    "pages/ucenter/aftersaleDetail/aftersaleDetail",
+    "pages/newCart/newCart",
+    "pages/orderDetail/orderDetail",
+    "pages/pay/pay",
+    "pages/test/test",
+    "pages/mall/mall",
+    "pages/mallGoods/mallGoods"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "navigationBarTitleText": "ruiyuyunshop小程序商城",
+    "enablePullDownRefresh": false,
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#F6F5F0",
+    "backgroundTextStyle": "dark",
+    "navigationStyle":"custom",
+    "backgroundColorTop":"#e6e7e8"
+  },
+  "tabBar": {
+    "backgroundColor": "#f6f5f0",
+    "borderStyle": "black",
+    "selectedColor": "#c49b6d",
+    "color": "#999999",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/indexImage/indexicon.png",
+        "selectedIconPath": "static/indexImage/indexicon-select.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/catalog/catalog",
+        "iconPath": "static/indexImage/diandantabbar.png",
+        "selectedIconPath": "/static/indexImage/ordericon-select@3x.png",
+        "text": "点单"
+      },
+      {
+        "pagePath": "pages/mall/mall",
+        "iconPath": "static/indexImage/shopicon@3x.png",
+        "selectedIconPath": "static/indexImage/shopicon@3x.png",
+        "text": "百货"
+      },
+      {
+        "pagePath": "pages/order/order",
+        "iconPath": "static/indexImage/dingdantabbar.png",
+        "selectedIconPath": "static/indexImage/dingdantabbar.png",
+        "text": "订单"
+      },
+      {
+        "pagePath": "pages/ucenter/index/index",
+        "iconPath": "static/indexImage/huiyuantabbar.png",
+        "selectedIconPath": "static/indexImage/huiyuantabbar.png",
+        "text": "会员"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true,
+  "usingComponents": {
+    "van-cell": "./lib/vant-weapp/cell/index",
+    "van-cell-group": "./lib/vant-weapp/cell-group/index",
+    "van-picker": "./lib/vant-weapp/picker/index",
+    "van-popup": "./lib/vant-weapp/popup/index",
+    "van-field": "./lib/vant-weapp/field/index",
+    "van-uploader": "./lib/vant-weapp/uploader/index",
+    "van-button": "./lib/vant-weapp/button/index",
+    "van-tag": "./lib/vant-weapp/tag/index",
+    "van-icon": "./lib/vant-weapp/icon/index",
+    "van-checkbox": "./lib/vant-weapp/checkbox/index",
+    "van-steps": "./lib/vant-weapp/steps/index"
+  },
+  "sitemapLocation": "sitemap.json",
+  "entryPagePath": "pages/index/index"
+}

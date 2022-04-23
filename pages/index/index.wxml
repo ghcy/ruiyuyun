@@ -1,0 +1,29 @@
+<!--index.wxml-->
+<view class="container">
+  <swiper class="banner" indicator-dots="true" autoplay="true" interval="3000" duration="1000">
+    <swiper-item>
+      <image src="../../static/indexImage/banner.png" class="img"></image>
+    </swiper-item>
+  </swiper>
+
+  <view class="box" bindtap="switchTab">
+    <view class="entry" >
+      <image src="/static/indexImage/tangshi.png" id="tangshi"></image>
+    </view>
+    <view class="text"></view>
+    <view class="entry">
+      <image src="/static/indexImage/ziqu.png" id="ziqu"></image>
+    </view>
+  </view>
+  <view class="box1">
+    <view class="picture">
+      <image src="/static/indexImage/guanggao1.png"></image>
+    </view>
+    <view class="picture">
+      <image src="/static/indexImage/guanggao2.png"></image>
+    </view>
+    <view class="picture">
+      <image src="/static/indexImage/guanggao3.png"></image>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,26 @@
+<view class="container">
+  <view class="title">潮米道大悦城店</view>
+
+  <!-- 商品列表 -->
+  <view class="goods">
+    <view class="item">
+      <image class="img1" src="/static/indexImage/shangpin1.png"></image>
+      <view class="text">招牌牛腩</view>
+      <view class="text2">一人份，微辣</view>
+      <view class="price">¥ 30.00</view>
+      <view class="operate">
+        <view class="minus" bindtap="cutNumber">-</view>
+        <view class="num">{{number}}</view>
+        <view class="add" bindtap="addNumber">+</view>
+      </view>
+    </view>
+  </view>
+  <view class="bottom">
+    <view class="text">
+      <view class="text1">合计</view>
+      <view class="text2">¥ 30.00</view>
+    </view>
+    <view class="text3" bindtap="gotoPay">结算</view>
+  </view>
+
+</view>
